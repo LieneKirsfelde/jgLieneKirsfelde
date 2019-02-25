@@ -1,18 +1,22 @@
 package lv.homework1;
 
+//Ok
 public class HumanTest {
     public static void main(String[] args) {
 
         Human human = new Human();
-        human.setName ("John");
-        human.setAge (20);
+        human.setName("John"); //code-format
+        human.setAge(20);
 
         human.greeting();
 
-        String humanName = human.getName();
-        int humanAge = human.getAge();
+        String humanName = human.getName();  //šis mainīgie nav vajadzīgi
+        int humanAge = human.getAge(); //šis mainīgie nav vajadzīgi
 
-        System.out.println((" My name is " + humanName + ". " + "I am " + humanAge+ " years old"));
+        // lietojam code-format "ctrl + alt + l"
+        // var izvadīt izsaucot no objekta metodi
+//        System.out.println((" My name is " + human.getName() + ". " + "I am " + human.getName() + " years old"));
+        System.out.println((" My name is " + humanName + ". " + "I am " + humanAge + " years old"));
 
     }
 }

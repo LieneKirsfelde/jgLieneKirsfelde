@@ -1,5 +1,6 @@
 package lv.homework1;
 
+//Ok
 public class Human {
 
     private int age;
